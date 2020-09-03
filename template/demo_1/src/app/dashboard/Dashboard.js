@@ -255,9 +255,24 @@ export class Dashboard extends Component {
     this.setState({visitSaleData: newVisitSaleData, trafficData:newTrafficData} )
   }
 
+
+
+  toggleProBanner() {
+    document.querySelector('.proBanner').classList.toggle("hide");
+  }
+
   render () {
     return (
       <div>
+        <div className="proBanner">
+          <div>
+            <span className="d-flex align-items-center purchase-popup">
+              <p>Get tons of UI components, Plugins, multiple layouts, 20+ sample pages, and more!</p>
+              <a href="https://www.bootstrapdash.com/product/purple-react/?utm_source=organic&utm_medium=banner&utm_campaign=free-preview" rel="noopener noreferrer" target="_blank" className="btn btn-sm purchase-button ml-auto">Check Pro Version</a>
+              <i className="mdi mdi-close bannerClose" onClick={this.toggleProBanner}></i>
+            </span>
+          </div>
+        </div>
         <div className="page-header">
           <h3 className="page-title">
             <span className="page-title-icon bg-gradient-primary text-white mr-2">

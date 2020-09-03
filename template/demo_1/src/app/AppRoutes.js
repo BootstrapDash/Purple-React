@@ -27,9 +27,7 @@ const Error404 = lazy(() => import('./error-pages/Error404'));
 const Error500 = lazy(() => import('./error-pages/Error500'));
 
 const Login = lazy(() => import('./user-pages/Login'));
-const Login2 = lazy(() => import('./user-pages/Login2'));
 const Register1 = lazy(() => import('./user-pages/Register'));
-const Register2 = lazy(() => import('./user-pages/Register2'));
 const Lockscreen = lazy(() => import('./user-pages/Lockscreen'));
 
 const BlankPage = lazy(() => import('./general-pages/BlankPage'));
@@ -62,9 +60,7 @@ class AppRoutes extends Component {
 
 
           <Route path="/user-pages/login-1" component={ Login } />
-          <Route path="/user-pages/login-2" component={ Login2 } />
           <Route path="/user-pages/register-1" component={ Register1 } />
-          <Route path="/user-pages/register-2" component={ Register2 } />
           <Route path="/user-pages/lockscreen" component={ Lockscreen } />
 
           <Route path="/error-pages/error-404" component={ Error404 } />

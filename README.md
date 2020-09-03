@@ -68,7 +68,6 @@ purple-react-free/
   ├── documentation
   ├── LICENSE
   ├── README.md
-  ├── README.md
 
 
 ```
