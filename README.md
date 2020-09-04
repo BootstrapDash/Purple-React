@@ -1,13 +1,8 @@
 # Purple React Free Admin Template
 
+Purple Admin React Free comes packed with a essential components, UI elements, and built-in sample pages to kick-start your project.
 
-Purple Admin React Free is yet another incredible admin template from BootstrapDash that is based on the Bootstrap framework. The template is tastefully designed and coded to perfection. Purple Admin React Free comes packed with a lot of bootstrap components, UI elements, and built-in sample pages to kick-start your project.
-
-The template is highly customizable so that you can alter the design to suit your needs and give it a unique look and very well-documented to help you get started without any issues. The template has a colorful, attractive yet simple and elegant design.
-
-Purple Admin Free is packed with all the features that fit your needs but not cramped with components you would not even use. It is an excellent fit to build admin panels, e-commerce systems, project management systems, CMS, or CRM.
-
-Although the template has a design like none other, it is easily customizable to suit your requirements. Purple Admin Free comes with a clean and well-commented code that makes it easy to work with the template. Thus making it an ideal pick for jump-starting your project.
+We are excited to share this dashboard with you and look forward to hearing your feedback!
 
 ## Demo
 
@@ -18,7 +13,7 @@ Visit: https://www.bootstrapdash.com/demo/purple-react-free/template/demo_1/prev
 
 ## Credits:
 
-.Bootstrap
+.React-bootstrap 
 
 .Material Design Icons
 
@@ -41,7 +36,7 @@ IE10+
 
 ## License Information:
 
-Purple Admin React free is released under MIT license. Purple Admin React is a free react admin template developed by BootstrapDash. Feel free to download it, use it, share it, and get creative with it.
+Purple Admin React free is released under MIT license. Feel free to download it, use it, share it, and get creative with it.
 
 
 ## Installation
